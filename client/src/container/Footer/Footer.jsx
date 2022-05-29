@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React, { useState } from "react";
 
 import { images } from "../../constants";
@@ -53,6 +54,16 @@ const Footer = () => {
           <img src={images.mobile} alt="mobile" />
           <a href="tel:+96891472555" className="p-text">
             +96891472555
+          </a>
+        </div>
+        <div className="app__footer-card">
+          <img src={images.cv} alt="mobile" />
+          <a
+            className="p-text"
+            target="_blank"
+            href="https://docs.google.com/document/d/1HXhEAs1M7B-_sCl87BBiat12phnY-OVr/edit?usp=sharing&ouid=103594291393692542242&rtpof=true&sd=true"
+          >
+            My Resume
           </a>
         </div>
       </div>
