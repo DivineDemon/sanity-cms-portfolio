@@ -58,11 +58,7 @@ const Footer = () => {
         </div>
         <div className="app__footer-card">
           <img src={images.cv} alt="mobile" />
-          <a
-            className="p-text"
-            target="_blank"
-            href="https://docs.google.com/document/d/1eCjoYzImhBomeQvCjOL8DO67dqyUeFxj/edit?usp=sharing&ouid=103594291393692542242&rtpof=true&sd=true"
-          >
+          <a className="p-text" target="_blank" href={images.resume} download>
             My Resume
           </a>
         </div>
