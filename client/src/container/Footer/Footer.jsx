@@ -61,7 +61,7 @@ const Footer = () => {
           <a
             className="p-text"
             target="_blank"
-            href="https://docs.google.com/document/d/1HXhEAs1M7B-_sCl87BBiat12phnY-OVr/edit?usp=sharing&ouid=103594291393692542242&rtpof=true&sd=true"
+            href="https://docs.google.com/document/d/1eCjoYzImhBomeQvCjOL8DO67dqyUeFxj/edit?usp=sharing&ouid=103594291393692542242&rtpof=true&sd=true"
           >
             My Resume
           </a>
